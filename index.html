@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Penguin fashion- using tailwind css</title>
+  <!-- Google Font link  -->
+  <!-- Bebas font  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <!-- roboto font  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <!-- Font-awesome Cdn link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Tailwind Css link -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+    .bebas-neue-font {
+      font-family: "Bebas Neue", sans-serif;
+
+    }
+
+
+    .roboto-condensed-font {
+      font-family: "Roboto Condensed", sans-serif;
+
+    }
+  </style>
+
+
+
+</head>
+
+<body class="roboto-condensed-font">
+  <!-- Header section start -->
+  <header class="w-full h-full md:h-[600px] bg-[#FFF2D7]  flex items-center">
+    <div class="w-11/12 md:w-5/6 md:h-5/6 mx-auto py-5 md:py-0">
+      <!-- Navbar Part -->
+      <nav class="flex justify-between">
+        <img class="w-[180px] md:w-[250px] h-[35px]" src="images/icons/logo.png" alt="">
+
+        <a href=""><i class="fa-solid fa-list md:hidden text-3xl"></i></a>
+
+        <ul class="hidden md:flex gap-4 md:gap-10 ">
+          <li><a href="">Home</a></li>
+          <li><a href="">Product</a></li>
+          <li><a href="">About us</a></li>
+          <li><a href="">Contact us</a></li>
+        </ul>
+      </nav>
+
+      <!-- Banner Part -->
+      <div class="mt-14 md:flex justify-between mx-auto">
+        <!-- Banner Text Part -->
+        <div class=" mx-auto md:mx-0 w-full md:w-3/6 md:mt-20">
+          <h1 class="bebas-neue-font text-5xl font-bold mb-5">
+            <span class="text-[#FABE4C] ">Be the Penguins</span> <br>
+            <span class="text-[#363958]">of Winter</span>
+          </h1>
+          <p class="text-[#3E3E3E] mb-5">We’ve got a wide selection of men’s jackets, including Bomber, Denim, Puffer,
+            and
+            Windbreaker jackets. We
+            craft these
+            jackets effectively to keep you warm in various weather conditions.</p>
+          <button class="bg-gradient-to-t from-[#85A019] to-[#A4BC46] px-8 py-2 text-[#FFFFFF] rounded-md">
+            <i class="fa-solid fa-cart-shopping mr-1"></i>
+            BUY NOW
+          </button>
+        </div>
+        <!-- Image Part  -->
+        <div class="mt-9 md:mt-0 w-[300px] h-[300px] mx-auto md:mx-0 md:w-[400px] md:h-[400px]">
+          <img class="h-full" src="images/model.png" alt="">
+        </div>
+
+      </div>
+
+
+    </div>
+  </header>
+  <main>
+
+  </main>
+  <footer>
+
+  </footer>
+
+</body>
+
+</html>
